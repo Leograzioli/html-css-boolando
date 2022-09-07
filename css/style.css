@@ -140,6 +140,7 @@ header .container{
 }
 
 .heart {
+    /* display: none; */
     position: absolute;
     right: 0;
     top: 10px;
@@ -149,6 +150,7 @@ header .container{
 }
 
 .card:hover .heart {
+    /* display: block; */
     color: red;
 }
 
