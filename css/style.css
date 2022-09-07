@@ -3,3 +3,70 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* common */
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.red-color {
+    color: red;
+    font-weight: bold;
+}
+
+.flexbox {
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* header  */
+.fixed-container {
+    height: 70px;
+    background-color: #ff6900;
+}
+
+/* main */
+
+.row {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px 0 80px;
+} 
+
+.col {
+    position: relative;
+    background-color: white;
+    width: calc(95% / 3);
+    margin-top: 40px;
+}
+
+.card-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card:hover .card-hover {
+    display: inline-block;
+}
+
+.line-through{
+    text-decoration: line-through;
+    color: black;
+    font-weight: lighter;
+    
+}
+
+/* footer  */
+footer {
+    background-color: #1a1a1a;
+}
+
+.footer-container {
+    height: 120px;
+}
